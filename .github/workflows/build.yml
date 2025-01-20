@@ -1,4 +1,4 @@
-name: Docker-build-with-evidence
+name: slash-docker-build-with-evidence
 
 on:
   [workflow_dispatch]
@@ -11,7 +11,7 @@ jobs:
   Docker-build-with-evidence:
     runs-on: ubuntu-latest
     env:
-      REPO_NAME: evidence-demo-docker-dev
+      REPO_NAME: slash-oci-dev-local
     steps:
 
       - uses: actions/checkout@v4
