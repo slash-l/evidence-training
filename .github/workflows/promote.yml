@@ -1,4 +1,4 @@
-name: Promote-to-qa
+name: slash-promote-to-qa
 on:
   workflow_dispatch:
     inputs:

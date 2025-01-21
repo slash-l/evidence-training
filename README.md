@@ -14,15 +14,14 @@ We will also experience validating the existing evidences, and apply an OPA (Ope
 
 These are the steps we will cover suring our training:
 
-1. [Prerequisites](#prerequisites)
-2. [Initial configuration](#initial-configuration)  
-3. [Running the build workflow](#run-build-workflow)  
-4. [Try the promotion workflow](#try-promotion-workflow)  
-5. [Configure missing evidences](#configure-missing-evidences)
-   1. Configre Approval evidence
-   2. Configure Sbom evidence
-6. [Re-Run the promotion workflow](#run-promotion-workflow)
-7. Bonus step: [Add approver validation](#add-approver-validation)
+- [RLM/Evidence training](#rlmevidence-training)
+  - [1. Prerequisites {#prerequisites}](#1-prerequisites-prerequisites)
+  - [2. Initial configuration  {#initial-configuration}](#2-initial-configuration--initial-configuration)
+  - [3. Running the build workflow {#run-build-workflow}](#3-running-the-build-workflow-run-build-workflow)
+  - [4. Try the promotion workflow {#try-promotion-workflow}](#4-try-the-promotion-workflow-try-promotion-workflow)
+  - [5. Configure missing evidences {#configure-missing-evidences}](#5-configure-missing-evidences-configure-missing-evidences)
+  - [6. Re-Run the promotion workflow {#run-promotion-workflow}](#6-re-run-the-promotion-workflow-run-promotion-workflow)
+  - [7. Bonus step: Add approver validation {#add-approver-validation}](#7-bonus-step-add-approver-validation-add-approver-validation)
 
 ***
 **Note**
@@ -83,7 +82,7 @@ In this step we will run the build workflow for the first time and review the re
 5. Make sure that all evidences were verified using the public key.
 
 ***
-## 4. Try the promotion workflow {#try-promotion-workflo}
+## 4. Try the promotion workflow {#try-promotion-workflow}
 
 In this step you will try to promote the release bundle to QA.
 
