@@ -98,7 +98,7 @@ In this step you will try to promote the release bundle to QA.
 ***
 ## 5. Configure missing evidences {#configure-missing-evidences}
 
-In this step we will configur the missing evidences so the workflow can path the policy validation.
+In this step we will configure the missing evidences so the workflow can path the policy validation.
 
 1. Uncomment the `Approve release-bundle` step in the build workflow.
 2. Enable Xray indexing for the release bundle created by the build workflow.
@@ -112,9 +112,9 @@ In this step we will re-run the promotion workflow again, after adding all of th
 4. Make sure the workflow completese successfully.
 6. Navigate to the release bundle in the JFrog platform using the link in the summary page.
 7. Navigate to the evidence graph tab and review the evidences, created as part of the updated build.
-3. Check that all of the relevan evidences were created successfully, you should see approval evidence and SBOM evidence attached to the release bundle.
+3. Check that all of the relevant evidences were created successfully, you should see approval evidence and SBOM evidence attached to the release bundle.
 4. Navigate to the promote workflow, and run it again.
-5. Make sure the workflow completese successfully.
+5. Make sure the workflow completes successfully.
 8. Review the approval evidence content, and check which data is included in the evidence. Where is this data comming from?
 
 ***
