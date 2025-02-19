@@ -34,7 +34,7 @@ approved if {
 output := {
     "found": found,
     "not_found": not_found,
-    "approved": approved,
+    "approved": approved
     //"approver": approver
 }
 
